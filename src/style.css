@@ -1,0 +1,151 @@
+html {
+    font-family: "Outfit", serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    margin-top: 8rem;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 40%;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+    font-size: 42px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.image-container {
+    padding: 2.5rem;
+    padding-bottom: 0;
+}
+
+.text-container {
+    padding: 2.5rem;
+    padding-top: 1rem;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+li {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.title-container {
+    padding-bottom: 1rem;
+}
+
+.prep-container {
+    background-color: hsl(330, 100%, 98%);
+    padding: 0.5rem 0 0.5rem 0;
+    border-radius: 20px;
+}
+
+.prep-container figcaption { 
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.prep-container li {
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.prep-container li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients-container {
+    border-bottom: 1px hsl(30, 18%, 87%) solid;
+}
+
+
+.ingredients-container li {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.ingredients-container li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions-container {
+    border-bottom: 1px hsl(30, 18%, 87%) solid;
+}
+
+.instructions-container li {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.instructions-container li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+
+.nutrition-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.calories-row, .carbs-row, .protein-row {
+    border-bottom:  1px hsl(30, 18%, 87%) solid;
+    padding: 1rem;
+    line-height: 2.5rem;
+}
+
+.fat-row {
+    padding: 1rem;
+    line-height: 2.5rem;
+}
+
+.nutrition-table th {
+    padding-left: 2.5rem;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%)
+}
+
+.nutrition-table td {
+    padding-left: 2.5rem;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+
+footer {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
